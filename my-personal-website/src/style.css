@@ -11,7 +11,7 @@ html {
     black
   );
 
-  --imp-text-color: #2581f1;
+  --imp-text-color: whitesmoke;
 }
 
 
@@ -29,7 +29,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #2581f1;
+  background-color: whitesmoke;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -65,7 +65,7 @@ button:focus {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #2581f1;
+  background: whitesmoke;
   border-radius: 12px;
 }
 
@@ -96,7 +96,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #2581f1 !important;
+  background-color: whitesmoke !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -256,10 +256,11 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: url('/Users/r_itika/Documents/Github/Personal-website/my-personal-website/src/Assets/Polish_20240309_115711200.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-image: url('/Users/r_itika/Documents/Github/Personal-website/my-personal-website/src/Assets/Polish_20240309_115625629.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
   background-position: top center;
   margin: 70px;
   background-repeat: no-repeat;
+  padding: 30px;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -290,13 +291,13 @@ button:focus {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #2581f1 !important;
+  color: whitesmoke !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
   font-family: "Orpheus Pro", sans-serif !important;
-  color: #2581f1 !important;
+  color: whitesmoke !important;
 }
 
 @media (max-width: 767px) {
@@ -417,13 +418,14 @@ button:focus {
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
-  border: none !important; /* Remove border */
   height: auto !important;
 }
 
 .project-card-view {
-  /* box-shadow: 0 4px 5px 3px grey !important; */
+  box-shadow: 4px 5px 4px 3px lightgrey!important;
   color: black !important;
+  border:  none !important;
+
   font-family: "Orpheus Pro", sans-serif !important;
   background-color: transparent !important;
   opacity: transparent !important;
@@ -453,9 +455,9 @@ button:focus {
 }
 
 .btn-primary {
-  color: #fff !important;
-  background-color: #2581f1 !important;
-  border-color: #2581f1 !important;
+  color: black !important;
+  background-color: whitesmoke !important;
+  border-color: whitesmoke !important;
 }
 
 .btn-primary:hover {
@@ -492,12 +494,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid #2581f1 !important;
+  border: 1.7px solid whitesmoke !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px #2581f1!important;
+  box-shadow: 4px 5px 4px 3px whitesmoke!important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -511,8 +513,11 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid #2581f1 !important;
+  border: 2.2px solid whitesmoke !important;
 }
+
+
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
@@ -583,7 +588,7 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #2581f1;
+  border-left: 2px solid whitesmoke;
   position: relative;
 }
 
@@ -620,7 +625,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #2581f1;
+  border: 2px solid whitesmoke;
 }
 
 .like-item {
@@ -630,7 +635,7 @@ button:focus {
 }
 
 .like-btn {
-  background-color: #2581f1 !important;
+  background-color: whitesmoke !important;
   border-color: #181a27 !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
@@ -640,7 +645,7 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #2581f1!important;
+  background-color: whitesmoke!important;
   border-color: #1b21e886 !important;
 }
 
@@ -665,7 +670,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #2581f1 !important;
+  background-color: whitesmoke !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -673,8 +678,9 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #2581f1 !important;
-  border-color: #2581f1 !important;
+  background-color: black !important;
+  border-color: black !important;
+  color: whitesmoke !important;
 }
 .fork-btn-inner::after {
   display: none !important;
