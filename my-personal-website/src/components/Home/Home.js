@@ -1,6 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Home2 from "./Home2";
+import EduCard from "./EduCard";
+import columbialogo from "../../Assets/Columbia_University_Thepharmadaily.png";
+import pictlogo from "../../Assets/pict.jpeg";
+
+
+
 
 function Home() {
   return (
@@ -24,7 +30,34 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      {/* <Home2 /> */}
+
+      <Container>
+        <h1 className="project-heading">
+Education        </h1>
+        <p >
+          
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={6} className="project-card">
+
+            <EduCard
+              imgPath={columbialogo}
+              title="Masters in Computer Science"
+
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <EduCard
+              imgPath={pictlogo}
+              title="Bachelors in Computer Engineering"
+            />
+          </Col>
+
+          
+        </Row>
+      </Container>
     </section>
   );
 }
