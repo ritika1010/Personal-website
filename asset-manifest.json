@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Personal-website/static/css/main.f33191c8.css",
+    "main.js": "/Personal-website/static/js/main.4d3a9ff0.js",
+    "static/js/453.1407b060.chunk.js": "/Personal-website/static/js/453.1407b060.chunk.js",
+    "static/media/Untitled design.png": "/Personal-website/static/media/Untitled design.afb10fdab22964e735f8.png",
+    "static/media/Columbia_University_Thepharmadaily.png": "/Personal-website/static/media/Columbia_University_Thepharmadaily.c1f0ddc880e6b6329d5e.png",
+    "static/media/pre.svg": "/Personal-website/static/media/pre.b589bc978134b7107bed.svg",
+    "index.html": "/Personal-website/index.html",
+    "main.f33191c8.css.map": "/Personal-website/static/css/main.f33191c8.css.map",
+    "main.4d3a9ff0.js.map": "/Personal-website/static/js/main.4d3a9ff0.js.map",
+    "453.1407b060.chunk.js.map": "/Personal-website/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f33191c8.css",
+    "static/js/main.4d3a9ff0.js"
+  ]
+}
