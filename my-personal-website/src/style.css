@@ -255,9 +255,9 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
-  background-image: url('/Users/r_itika/Documents/Github/Personal-website/my-personal-website/src/Assets/Polish_20240309_115625629.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
-  background-position: top center;
+  z-index: 1;
+  background-image: url('/Users/r_itika/Documents/Github/Personal-website/my-personal-website/src/Assets/Untitled design.png');
+  background-position: center;
   margin: 70px;
   background-repeat: no-repeat;
   padding: 30px;

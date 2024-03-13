@@ -44,6 +44,8 @@ Education        </h1>
             <EduCard
               imgPath={columbialogo}
               title="Masters in Computer Science"
+              description="Teaching Assistant for Databases | MLH Hackathon
+              | Cloud Computing and Big Data, Advance Software Engineering, Programming Languages and Translators, Databases, Applied Machine Learning, NLP, Advance Databases, Data Visualization"
 
             />
           </Col>
@@ -52,6 +54,7 @@ Education        </h1>
             <EduCard
               imgPath={pictlogo}
               title="Bachelors in Computer Engineering"
+              description="OOP, Databases, Data Structures and Algorithms, ML, Advance Algorithms, Computer Networks | Member of ACM | Smart India Hackathon Winner 2020 | President of Rotaract Club"
             />
           </Col>
 
